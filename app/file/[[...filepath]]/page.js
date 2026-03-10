@@ -1,13 +1,14 @@
 import React from 'react'
 
 async function filepath({params,searchParams}) {
+  debugger
     const {filepath}=await params;
     const q=await searchParams
     console.log(filepath)
     console.log(q)
   return (
     <div>
-      file /{filepath.join('/')} 
+      file /{filepath?.join('/')} 
     </div>
   )
 }
