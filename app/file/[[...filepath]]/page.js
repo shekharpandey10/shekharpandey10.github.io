@@ -1,5 +1,10 @@
 import React from 'react'
 
+export const metadata = {
+  title: 'files',
+  description: '...',
+}
+
 async function filepath({params,searchParams}) {
   debugger
     const {filepath}=await params;

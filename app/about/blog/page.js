@@ -1,5 +1,9 @@
 import React from 'react'
 
+export const metadata = {
+  title: 'Blog',
+  description: '...',
+}
 function Blog() {
   return (
     <div>

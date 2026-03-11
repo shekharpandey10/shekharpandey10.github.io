@@ -1,5 +1,9 @@
 import React from 'react'
 
+export const metadata = {
+  title: 'web dev',
+  description: '...',
+}
 function webDev() {
   return (
     <div>
